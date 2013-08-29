@@ -4,10 +4,10 @@
 # Taken from Justin Miller (http://developmentseed.org/blog/2011/sep/02/automating-development-uploads-testflight-xcode/)
 # Place in Xcode Scheme's Archive Post-actions
 
-API_TOKEN="api_token_here"
-TEAM_TOKEN="team_token_here"
-SIGNING_IDENTITY="iPhone Distribution: Development Seed"
-PROVISIONING_PROFILE="${HOME}/Library/MobileDevice/Provisioning Profiles/MapBox Ad Hoc.mobileprovision"
+API_TOKEN="__YOUR_API_TOKEN__"
+TEAM_TOKEN="__YOUR_TEAM_TOKEN__"
+SIGNING_IDENTITY="__YOUR_SIGNING_IDENTITY__"
+PROVISIONING_PROFILE="${HOME}/Library/MobileDevice/Provisioning Profiles/__YOUR_PROVISIONING_PROFILE_.mobileprovision"
 #LOG="/tmp/testflight.log"
 GROWL="${HOME}/bin/growlnotify -a Xcode -w"
 
