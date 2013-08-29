@@ -19,7 +19,7 @@ The basic approach is as follows. Warning! Xcode-isms abound.
  9. Keep in mind that this script will end up in your scheme, which you may or may not include in version control. Mine is located in (project).xcodeproj/xcuserdata/(username).xcuserdatad, and we exclude xcuserdata from version control.
 
 The script ends up in a place like this:
-![Xcode Scheme Post-Actions Screenshot](/screenshot.png "Xcode Scheme Post-Actions Screenshot")
+![Xcode Scheme Post-Actions Screenshot](/screenshot.jpg "Xcode Scheme Post-Actions Screenshot")
 
 Adding an Xcode 4 scheme Archive Post-script
 You can get your API token from your TestFlight account page and your team token from editing your team page. Aside from your code signing identity and provisioning profile, which could be the same across all members of your team, these are the only dynamic bits that you’d have to change for multiple developers using this script. In all likelihood, even the team token would be the same.
