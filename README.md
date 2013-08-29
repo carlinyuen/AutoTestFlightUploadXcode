@@ -4,8 +4,9 @@ AutoTestFlightUploadXcode
 A script for automatically uploading to TestFlight from Xcode once you hit Archive.
 Keywords: automation, script, shell, unix, bash, xcode, testflight, beta, testing, upload.
 
-Edited by Carlin Yuen. Took out Growl, cleaned up and added some comments to
-better explain how to use and fill out variables.
+Edited by Carlin Yuen:
+ * Took out Growl, which was breaking the open url at the end.
+ * Cleaned up and added some comments to better explain how to use and fill out variables.
 
 Taken from Justin Miller's excellent [blog post](http://developmentseed.org/blog/2011/sep/02/automating-development-uploads-testflight-xcode/):
 
